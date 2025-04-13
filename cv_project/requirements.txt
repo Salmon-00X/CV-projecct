@@ -1,0 +1,8 @@
+#run in the run.py
+#all required packages that have to downloaded in the environment
+opencv-python
+mediapipe
+pygame
+numpy
+gtts
+playsound

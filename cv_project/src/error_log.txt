@@ -1,0 +1,96 @@
+Error in start sequence: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "c:\Users\Anantachat\Desktop\cv_project\src\main.py", line 46, in main
+    face_image = hand_tracking.get_frame()[face_coordinates[1]:face_coordinates[1]+face_coordinates[3], face_coordinates[0]:face_coordinates[0]+face_coordinates[2]]
+TypeError: 'NoneType' object is not subscriptable
+
+Error in start sequence: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "c:\Users\Anantachat\Desktop\cv_project\src\main.py", line 46, in main
+    face_image = hand_tracking.get_frame()[face_coordinates[1]:face_coordinates[1]+face_coordinates[3], face_coordinates[0]:face_coordinates[0]+face_coordinates[2]]
+TypeError: 'NoneType' object is not subscriptable
+
+Error in start sequence: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "c:\Users\Anantachat\Desktop\cv_project\src\main.py", line 46, in main
+    face_image = hand_tracking.get_frame()[face_coordinates[1]:face_coordinates[1]+face_coordinates[3], face_coordinates[0]:face_coordinates[0]+face_coordinates[2]]
+TypeError: 'NoneType' object is not subscriptable
+
+Error in start sequence: could not broadcast input array from shape (200,200) into shape (200,200,3)
+Traceback (most recent call last):
+  File "c:\Users\Anantachat\Desktop\cv_project\src\main.py", line 57, in main
+    player_name, ai_avatar = run_avatar_selection(image_processing)
+  File "c:\Users\Anantachat\Desktop\cv_project\src\avatar_selection.py", line 66, in run_avatar_selection
+    frame[y_offset:y_offset+200, x_offset:x_offset+200] = img_resized
+ValueError: could not broadcast input array from shape (200,200) into shape (200,200,3)
+
+Error in start sequence: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+Traceback (most recent call last):
+  File "c:\Users\Anantachat\Desktop\cv_project\src\main.py", line 58, in main
+    player_name, ai_avatar = run_avatar_selection(image_processor=image_processing)
+  File "c:\Users\Anantachat\Desktop\cv_project\src\avatar_selection.py", line 109, in run_avatar_selection
+    if selected_image:
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+
+Error in start sequence: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+Traceback (most recent call last):
+  File "c:\Users\Anantachat\Desktop\cv_project\src\main.py", line 60, in main
+    player_name, ai_avatar = run_avatar_selection(image_processor=image_processing)
+  File "c:\Users\Anantachat\Desktop\cv_project\src\avatar_selection.py", line 125, in run_avatar_selection
+    if selected_image:
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+
+Error in start sequence: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+Traceback (most recent call last):
+  File "c:\Users\Anantachat\Desktop\cv_project\src\main.py", line 60, in main
+    player_name, ai_avatar = run_avatar_selection(image_processor=image_processing)
+  File "c:\Users\Anantachat\Desktop\cv_project\src\avatar_selection.py", line 125, in run_avatar_selection
+    if selected_image:
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+
+Error in start sequence: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+Traceback (most recent call last):
+  File "c:\Users\Anantachat\Desktop\cv_project\src\main.py", line 79, in main
+    player_name, ai_avatar = run_avatar_selection(image_processor=image_processing)
+  File "c:\Users\Anantachat\Desktop\cv_project\src\avatar_selection.py", line 122, in run_avatar_selection
+    if selected_image:
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+
+Error in start sequence: [Errno 2] No such file or directory: 'assets\\leaderboard.json'
+Traceback (most recent call last):
+  File "c:\Users\Anantachat\Desktop\cv_project\src\main.py", line 86, in main
+    ui.update_leaderboard(player_name, game_logic.get_scores())
+  File "c:\Users\Anantachat\Desktop\cv_project\src\ui.py", line 157, in update_leaderboard
+    with open(os.path.join("assets", "leaderboard.json"), "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'assets\\leaderboard.json'
+
+Error in start sequence: [Errno 2] No such file or directory: 'assets\\leaderboard.json'
+Traceback (most recent call last):
+  File "c:\Users\Anantachat\Desktop\cv_project\src\main.py", line 86, in main
+    ui.update_leaderboard(player_name, game_logic.get_scores())
+  File "c:\Users\Anantachat\Desktop\cv_project\src\ui.py", line 157, in update_leaderboard
+    with open(os.path.join("assets", "leaderboard.json"), "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'assets\\leaderboard.json'
+
+Error in start sequence: [Errno 2] No such file or directory: 'assets\\leaderboard.json'
+Traceback (most recent call last):
+  File "c:\Users\Anantachat\Desktop\cv_project\src\main.py", line 86, in main
+    ui.update_leaderboard(player_name, game_logic.get_scores())
+  File "c:\Users\Anantachat\Desktop\cv_project\src\ui.py", line 157, in update_leaderboard
+    with open(os.path.join("assets", "leaderboard.json"), "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'assets\\leaderboard.json'
+
+Error in start sequence: play_game() missing 1 required positional argument: 'clock'
+Traceback (most recent call last):
+  File "c:\Users\Anantachat\Desktop\cv_project\src\main.py", line 90, in main
+    play_game(screen, player_name, ai_avatar, mode, hand_tracking, game_logic, ui, object_detector)
+TypeError: play_game() missing 1 required positional argument: 'clock'
+
+Error in start sequence: No file 'assets\sounds\countdown_tick.wav' found in working directory 'C:\Users\Anantachat\Desktop\cv_project'.
+Traceback (most recent call last):
+  File "c:\Users\Anantachat\Desktop\cv_project\src\main.py", line 108, in main
+    play_game(screen, player_name, ai_avatar, mode, hand_tracking, game_logic, ui, object_detector, clock)
+  File "c:\Users\Anantachat\Desktop\cv_project\src\main.py", line 158, in play_game
+    countdown_sound = pygame.mixer.Sound(os.path.join("assets", "sounds", "countdown_tick.wav"))
+FileNotFoundError: No file 'assets\sounds\countdown_tick.wav' found in working directory 'C:\Users\Anantachat\Desktop\cv_project'.
+

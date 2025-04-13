@@ -1,0 +1,161 @@
+Error: OpenCV(4.10.0) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Expected sequence length 2, got 4
+>  - Can't parse 'pt1'. Expected sequence length 2, got 4
+>  - Argument 'thickness' is required to be an integer
+>  - Argument 'thickness' is required to be an integer
+
+Traceback (most recent call last):
+  File "c:\Users\Anantachat\Desktop\cv_project\run.py", line 11, in <module>
+    main()
+  File "c:\Users\Anantachat\Desktop\cv_project\src\main.py", line 37, in main
+    player_name, face_coordinates = run_player_registration()
+  File "c:\Users\Anantachat\Desktop\cv_project\src\player_registration.py", line 71, in run_player_registration
+    draw_ui(frame, player_name, "Selecting..." if finger_hover_time > 0 else "")
+  File "c:\Users\Anantachat\Desktop\cv_project\src\player_registration.py", line 21, in draw_ui
+    cv2.rectangle(overlay, BUTTON_POS, (BUTTON_POS[0] + BUTTON_POS[2], BUTTON_POS[1] + BUTTON_POS[3]), (0, 200, 0), -1)
+cv2.error: OpenCV(4.10.0) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Expected sequence length 2, got 4
+>  - Can't parse 'pt1'. Expected sequence length 2, got 4
+>  - Argument 'thickness' is required to be an integer
+>  - Argument 'thickness' is required to be an integer
+
+
+Error: OpenCV(4.10.0) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Expected sequence length 2, got 4
+>  - Can't parse 'pt1'. Expected sequence length 2, got 4
+>  - Argument 'thickness' is required to be an integer
+>  - Argument 'thickness' is required to be an integer
+
+Traceback (most recent call last):
+  File "c:\Users\Anantachat\Desktop\cv_project\run.py", line 11, in <module>
+    main()
+  File "c:\Users\Anantachat\Desktop\cv_project\src\main.py", line 37, in main
+    player_name, face_coordinates = run_player_registration()
+  File "c:\Users\Anantachat\Desktop\cv_project\src\player_registration.py", line 71, in run_player_registration
+    draw_ui(frame, player_name, "Selecting..." if finger_hover_time > 0 else "")
+  File "c:\Users\Anantachat\Desktop\cv_project\src\player_registration.py", line 21, in draw_ui
+    cv2.rectangle(overlay, BUTTON_POS, (BUTTON_POS[0] + BUTTON_POS[2], BUTTON_POS[1] + BUTTON_POS[3]), (0, 200, 0), -1)
+cv2.error: OpenCV(4.10.0) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Expected sequence length 2, got 4
+>  - Can't parse 'pt1'. Expected sequence length 2, got 4
+>  - Argument 'thickness' is required to be an integer
+>  - Argument 'thickness' is required to be an integer
+
+
+Error: OpenCV(4.10.0) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Expected sequence length 2, got 4
+>  - Can't parse 'pt1'. Expected sequence length 2, got 4
+>  - Argument 'thickness' is required to be an integer
+>  - Argument 'thickness' is required to be an integer
+
+Traceback (most recent call last):
+  File "c:\Users\Anantachat\Desktop\cv_project\run.py", line 11, in <module>
+    main()
+  File "c:\Users\Anantachat\Desktop\cv_project\src\main.py", line 37, in main
+    player_name, face_coordinates = run_player_registration()
+  File "c:\Users\Anantachat\Desktop\cv_project\src\player_registration.py", line 71, in run_player_registration
+    draw_ui(frame, player_name, "Selecting..." if finger_hover_time > 0 else "")
+  File "c:\Users\Anantachat\Desktop\cv_project\src\player_registration.py", line 21, in draw_ui
+    cv2.rectangle(overlay, BUTTON_POS, (BUTTON_POS[0] + BUTTON_POS[2], BUTTON_POS[1] + BUTTON_POS[3]), (0, 200, 0), -1)
+cv2.error: OpenCV(4.10.0) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Expected sequence length 2, got 4
+>  - Can't parse 'pt1'. Expected sequence length 2, got 4
+>  - Argument 'thickness' is required to be an integer
+>  - Argument 'thickness' is required to be an integer
+
+
+Error: [Errno 2] No such file or directory: 'project_root\\error_log.txt'
+Traceback (most recent call last):
+  File "c:\Users\Anantachat\Desktop\cv_project\src\main.py", line 43, in main
+    player_name, face_coordinates = run_player_registration()
+  File "c:\Users\Anantachat\Desktop\cv_project\src\player_registration.py", line 71, in run_player_registration
+    draw_ui(frame, player_name, "Selecting..." if finger_hover_time > 0 else "")
+  File "c:\Users\Anantachat\Desktop\cv_project\src\player_registration.py", line 21, in draw_ui
+    cv2.rectangle(overlay, BUTTON_POS, (BUTTON_POS[0] + BUTTON_POS[2], BUTTON_POS[1] + BUTTON_POS[3]), (0, 200, 0), -1)
+cv2.error: OpenCV(4.10.0) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Expected sequence length 2, got 4
+>  - Can't parse 'pt1'. Expected sequence length 2, got 4
+>  - Argument 'thickness' is required to be an integer
+>  - Argument 'thickness' is required to be an integer
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Anantachat\Desktop\cv_project\run.py", line 11, in <module>
+    main()
+  File "c:\Users\Anantachat\Desktop\cv_project\src\main.py", line 61, in main
+    with open(os.path.join("project_root", "error_log.txt"), "a") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'project_root\\error_log.txt'
+
+Error: [Errno 2] No such file or directory: 'assets\\leaderboard.json'
+Traceback (most recent call last):
+  File "c:\Users\Anantachat\Desktop\cv_project\run.py", line 11, in <module>
+    main()
+  File "c:\Users\Anantachat\Desktop\cv_project\src\main.py", line 66, in main
+    ui.show_leaderboard(screen)
+  File "c:\Users\Anantachat\Desktop\cv_project\src\ui.py", line 99, in show_leaderboard
+    with open(os.path.join("assets", "leaderboard.json"), "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'assets\\leaderboard.json'
+
+Error: No file 'assets\emojis\fist.png' found in working directory 'C:\Users\Anantachat\Desktop\cv_project'.
+Traceback (most recent call last):
+  File "c:\Users\Anantachat\Desktop\cv_project\run.py", line 11, in <module>
+    main()
+  File "c:\Users\Anantachat\Desktop\cv_project\src\main.py", line 46, in main
+    ui = UI()
+  File "c:\Users\Anantachat\Desktop\cv_project\src\ui.py", line 52, in __init__
+    "rock": pygame.image.load(os.path.join("assets", "emojis", "fist.png")).convert_alpha(),
+FileNotFoundError: No file 'assets\emojis\fist.png' found in working directory 'C:\Users\Anantachat\Desktop\cv_project'.
+
+Error in start sequence: module 'datetime' has no attribute 'now'
+Traceback (most recent call last):
+  File "c:\Users\Anantachat\Desktop\cv_project\src\main.py", line 70, in main
+    image_processing.save_face(face_image, player_name)
+  File "c:\Users\Anantachat\Desktop\cv_project\src\image_processing.py", line 75, in save_face
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+AttributeError: module 'datetime' has no attribute 'now'
+
+Error in start sequence: module 'datetime' has no attribute 'now'
+Traceback (most recent call last):
+  File "c:\Users\Anantachat\Desktop\cv_project\src\main.py", line 70, in main
+    image_processing.save_face(face_image, player_name)
+  File "c:\Users\Anantachat\Desktop\cv_project\src\image_processing.py", line 75, in save_face
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+AttributeError: module 'datetime' has no attribute 'now'
+
+Error in start sequence: module 'datetime' has no attribute 'now'
+Traceback (most recent call last):
+  File "c:\Users\Anantachat\Desktop\cv_project\src\main.py", line 70, in main
+    image_processing.save_face(face_image, player_name)
+  File "c:\Users\Anantachat\Desktop\cv_project\src\image_processing.py", line 75, in save_face
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+AttributeError: module 'datetime' has no attribute 'now'
+
+Error: No file 'assets\emojis\rock.png' found in working directory 'C:\Users\Anantachat\Desktop\cv_project'.
+Traceback (most recent call last):
+  File "c:\Users\Anantachat\Desktop\cv_project\run.py", line 11, in <module>
+    main()
+  File "c:\Users\Anantachat\Desktop\cv_project\src\main.py", line 53, in main
+    ui = UI()
+  File "c:\Users\Anantachat\Desktop\cv_project\src\ui.py", line 62, in __init__
+    self.emojis[gesture] = pygame.image.load(os.path.join("assets", "emojis", f"{gesture}.png")).convert_alpha()
+FileNotFoundError: No file 'assets\emojis\rock.png' found in working directory 'C:\Users\Anantachat\Desktop\cv_project'.
+
+Error: No file 'assets\emojis\rock.png' found in working directory 'C:\Users\Anantachat\Desktop\cv_project'.
+Traceback (most recent call last):
+  File "c:\Users\Anantachat\Desktop\cv_project\run.py", line 11, in <module>
+    main()
+  File "c:\Users\Anantachat\Desktop\cv_project\src\main.py", line 53, in main
+    ui = UI()
+  File "c:\Users\Anantachat\Desktop\cv_project\src\ui.py", line 62, in __init__
+    self.emojis[gesture] = pygame.image.load(os.path.join("assets", "emojis", f"{gesture}.png")).convert_alpha()
+FileNotFoundError: No file 'assets\emojis\rock.png' found in working directory 'C:\Users\Anantachat\Desktop\cv_project'.
+
